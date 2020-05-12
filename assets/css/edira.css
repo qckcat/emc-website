@@ -2,3 +2,7 @@ body {
   background-color: Floralwhite;
   height: 100v;
 }
+p.vipcolor { color:#55FF55;font-weight:bold;font-size:20 }
+p.mvpcolor { color:#55FFFF;font-weight:bold;font-size:20 }
+p.scolor { color:#FF5555;font-weight:bold;font-size:20 }
+span.pluscolor { color:#FFAA00;font-weight:bold;font-size:20 }
