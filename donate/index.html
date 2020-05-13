@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <link rel="stylesheet" href="/assets/css/edira.css">
     <script src="https://kit.fontawesome.com/c529971606.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter@1.1.1/dist/mc-player-counter.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <script src="https://edira.net/assets/js/ipcopy.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>
     <section class="section">
@@ -15,7 +17,8 @@
             <div class="column is-one-eights">
               <div class="bd-notification is-primary has-text-centered">
                 <p class="heading">Server IP</p>
-                <p class="title">MC.EDIRA.NET</p>
+                <p class="title" id="p1">MC.EDIRA.NET</p>
+                <button onclick="copyToClipboard('#p1')">Copy TEXT 1</button>
               </div>
             </div>
             <div class="column is-six-eights">
