@@ -17,8 +17,8 @@
             <div class="column is-one-eights">
               <div class="bd-notification is-primary has-text-centered">
                 <p class="heading">Server IP</p>
-                <p class="title" id="p1">MC.EDIRA.NET</p>
-                <button onclick="copyToClipboard('#p1')">Copy TEXT 1</button>
+                <a class="button"><p class="title" id="p1" onclick="copyToClipboard('#p1')">MC.EDIRA.NET</p></a>
+                <p class="heading">Click to copy IP</p>
               </div>
             </div>
             <div class="column is-six-eights">
@@ -31,7 +31,7 @@
             <div class="column is-one-eights">
               <div class="bd-notification is-primary has-text-centered">
                 <p class="heading">Players Online</p>
-                <p class="title"><span data-playercounter-ip="mc.edira.net">0</span></p>
+                <a class="button"><p class="title"><span data-playercounter-ip="mc.edira.net">0</span></p></a>
               </div>
             </div>
       </div>
@@ -77,22 +77,87 @@
       </ul>
     </div>
   </body>
-
+  <section class="hero is-medium is-dark is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-variable bd-klmn-columns">
+              <div class="column is-one-eights">
+                <header class="logo is-size-1">
+                  DONATE
+                </header>
+                <h2 class="subtitle">
+                  Our server relies on community support for funding - please consider purchasing a rank from our server store.
+                </h2>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-variable bd-klmn-columns">
+            <div class="column is-one-third">
+              <div class="container">
+                <h1 class="title has-text-centered">What can you buy?</h1>
+                <h2 class="subtitle">
+                  Please look <strong>below</strong> for all donation options. In the future we will offer more than just ranks such
+                  as server wide XP boosters and cosmetic loot-boxes.
+                </h2>
+              </div>
+            </div>
+            <div class="column is-one-third has-text-centered">
+              <div class="container">
+                <h1 class="title">Server Store</h1>
+                <h2 class="subtitle">
+                  You can access our server store at:
+                </h2>
+              </div>
+              <div class="bd-notification is-primary has-text-centered">
+                <div class="is-primary has-text-centered">
+                  <p> ----- </p>
+                </div>
+              </div>
+              <div class="bd-notification is-primary has-text-centered">
+                <a href="https://store.edira.net" class="button is-link is-rounded">STORE.EDIRA.NET</a>
+              </div>
+            </div>
+            <div class="column is-one-third">
+              <div class="container has-text-centered">
+                <h1 class="title">Our Philosophy</h1>
+                <h2 class="subtitle">
+                  Players who purchase ranks are not given any balnace breaking advantages. Every player will have an even oppurtunity to remain
+                  competetive in raids, pvp, and building.
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
   <section class="section is-centered">
     <div class="level-item has-text-centered">
       <table class="table is-striped is-bordered is-hoverable">
         <thead>
           <tr>
             <th></th>
-            <th>VIP</th>
-            <th>VIP+</th>
-            <th>MVP</th>
-            <th>MVP+</th>
-            <th>S (Coming Soon)</th>
-            <th>S+ (Coming Soon)</th>
+            <th class="logo is-size-2">VIP</th>
+            <th class="logo is-size-2">VIP+</th>
+            <th class="logo is-size-2">MVP</th>
+            <th class="logo is-size-2">MVP+</th>
+            <th class="logo is-size-2">S</th>
+            <th class="logo is-size-2">S+</th>
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <th>Price</th>
+            <td>$7.99</td>
+            <td>$14.99</td>
+            <td>$29.99</td>
+            <td>$44.99</td>
+            <td><button class="button is-primary has-tooltip-active" data-tooltip="Tooltip Text">Always active tooltip</button></td>
+            <td><span class="pluscolor">$14.99 (monthly)</span></td>
+          </tr>
           <tr>
             <th>Chat Name Color</th>
             <td><p class="vipcolor">Green</p></td>
